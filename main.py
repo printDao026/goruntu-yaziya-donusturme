@@ -25,5 +25,5 @@ while True:
     if key == 27:#ascii tablosundaki 27 dec yani esc temsil ediyor eğer klavyede esc basarsak döngü kırılıyor
         break
 
-cap.release()#burda zatem döngü kırıldığında yada programı kapattığımızda video akışını serbest bırakıyor
+cap.release()#video akışını serbest bırakıyor
 cv2.destroyAllWindows()#bütün pencereleri kapatıyor
