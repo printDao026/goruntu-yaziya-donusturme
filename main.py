@@ -2,7 +2,7 @@ import pytesseract
 import cv2
 from PIL import Image
 
-discord="dao026"
+discord="dao026"#discordum
 
 #bunu indirmeniz gerekli https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v4.0.0-beta.4.20180912.exe
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"#eğer bunu yapmasaydık pytesseract metin çıkarma işlemini kullanamazdık 
